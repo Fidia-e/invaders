@@ -1,0 +1,55 @@
+body {
+  width: 100%;
+  background-color: rgb(0, 28, 40);
+  color: rgb(232, 229, 229);
+}
+
+.select-model {
+  width: 30%;
+  margin: 5rem auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#invader {
+  display: block;
+  width: 50%;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.invaderLine {
+  display: flex;
+  flex-direction: row;
+}
+
+.empty {
+  /* - */
+  color: #0f0;
+}
+
+.plain {
+  /* x */
+  color: #fa9703;
+}
+
+.light {
+  /* o */
+  color: #fff;
+}
+
+.highlight {
+  /* 8 */
+  color: #000;
+}
